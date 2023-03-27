@@ -1,0 +1,105 @@
+body{
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* typography */
+
+h1{
+    color: whitesmoke;
+    font-size: 36px;
+    margin: 0;
+}
+
+h2{
+    margin-top: 0;
+}
+
+h3{
+    color: #d0aaff;
+    font-size: 20px;
+    margin:0;
+}
+
+/* links */
+
+/* layout */
+
+.section-2 .container p{
+    line-height: 23px;
+}
+
+section{
+    padding: 45px 0;
+}
+
+.section-2, header{
+    color: whitesmoke;
+    background-color: #5f29a3;
+    padding: 45px 0;
+}
+
+.container{
+    width: 620px;
+    margin: 0 auto;
+}
+
+.main-image{
+    width:100%;
+}
+
+.section-image{
+    width: 300px;
+    border-radius: 4.6px;
+}
+
+.wrapper-images{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+footer{
+    padding: 45px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #5f29a3;
+}
+
+.button{
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+section .button-buy{
+    color: whitesmoke;
+    background-color: #5f29a3;
+
+}
+
+section .button-info{
+    color: #5f29a3;
+    background-color: #f0e0ff;
+
+}
+
+.section-2 .button{
+    color: #5f29a3;
+    background-color: whitesmoke;
+
+
+}
+.button:hover, .button:active{
+    color: #2b283a;
+    background-color: #f3e885;
+}
+
+
