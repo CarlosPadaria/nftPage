@@ -171,7 +171,7 @@ section .button-info {
     }
 }
 
-@media(min-width: 768px) {
+@media(min-width: 769px) {
     
     header,
     section,
@@ -201,8 +201,45 @@ section .button-info {
     p{
         font-size: 1.125rem;
     }
-    
-    
 
+    .header-container{
+        display: flex;
+        flex-direction: row;
 
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    ul{
+      
+        display: flex;
+    }
+    nav{
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+
+    li:not(:last-child){
+        border-bottom: 0px 
+    }
+
+    nav a{
+        color: #d0aaff;
+        font-weight: 700;
+    }
+
+}
+
+.wrapper-images{
+    gap: 2rem;
+}
+.feature-item{
+    flex-basis: 220px;
+    flex-grow: 1;
+   
+}
+
+.section-image{
+    width: 100%;
 }
